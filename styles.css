@@ -52,6 +52,7 @@ nav div h1{
 }
 .menubar i{
     cursor: pointer;
+    font-size: 1.5rem;
 }
 a{
     text-decoration: none;
@@ -162,6 +163,8 @@ letter-spacing: 4px;
     }
     .menubar{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     main{
         top: 100px;
