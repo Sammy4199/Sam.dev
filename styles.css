@@ -181,6 +181,7 @@ main{
  gap: 30px;
  font-size: 1.7rem;
  margin-top: 100px;
+ margin-bottom: 10px
 }
 .stack-top p{
     border-right: 2px solid rgba(45,46,50,.5);
