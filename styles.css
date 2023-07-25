@@ -494,6 +494,7 @@ element.style {
     background: #d4e2f2;
     border: none;
     box-shadow: 0px 5px 10px gray;
+    -webkit-box-shadow: 0px 5px 10px gray; 
   }
     footer {
         background-color: #2d2e32;
