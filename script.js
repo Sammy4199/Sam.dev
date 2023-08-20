@@ -14,28 +14,5 @@ if (menu.classList.contains('show')) {
 }
 });
 
-function keydownHandler(e) {
 
-    //NEW
-    var evt = e ? e : window.event;
-    if (evt.stopPropagation)    evt.stopPropagation();
-    if (evt.cancelBubble!=null) evt.cancelBubble = true;
-    //END
-
-    switch(String.fromCharCode(e.which)) {
-    case menu.visible.key:
-        if (menu.visible.enable==true && e.shiftKey && e.ctrlKey) 
-            sendRequest({action:'visible'});
-        break;
-    case menu.selected.key:
-        if (menu.selected.enable==true && e.shiftKey && e.ctrlKey) 
-            sendRequest({action:'selected'});
-        break;
-    case menu.entire.key:
-        if (menu.entire.enable==true && e.shiftKey && e.ctrlKey) 
-            sendRequest({action:'entire'});
-        break;
-    }
-}
-e.stopPropagation();
 
