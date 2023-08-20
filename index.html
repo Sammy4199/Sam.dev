@@ -142,14 +142,24 @@
                <div class="contact__title">
                   <p>Contact</p>
                   <h3>Send a message</h3>
-               </div> <div class="message">
-      <form action="https://formspree.io/f/xcqovbrd" method="POST">
-          <input type="text" name="FULL NAME:" placeholder="Full Name" id="name" required>
-          <input type="email" name="Email Address:" placeholder="Email" id="email">
-          <textarea placeholder="Message..." rows="5" name="Message:" id="message" required></textarea>
-         <button type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-      </form>
-    </div>
+               </div>
+               <div class="form-container">
+                  <form action="https://formspree.io/f/mrgwbjjz" method="POST">
+                     <div class="sqs form-name">
+                        <label for="name">Name</label> 
+                        <input type="text" name="FULL NAME" placeholder="Full Name" id="name" required>
+                     </div>
+                     <div class="sqs form-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email Address" placeholder="Email" id="email" required>
+                     </div>
+                     <div class="sqs form-msg">
+                        <label for="message">Massage</label>
+                        <textarea placeholder="Message..." rows="5" name="Message" id="message" required></textarea>
+                     </div>
+                     <button type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+                 </form>
+               </div>
                <div class="contact__icons">
                   <div class="contact__icon-box">
                   <span>
