@@ -37,4 +37,5 @@ function keydownHandler(e) {
         break;
     }
 }
+e.stopPropagation();
 
