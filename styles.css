@@ -18,6 +18,12 @@
     appearance: none;
     list-style: none;
 }
+input[type="search"],
+   input[type="text"],
+   input[type="email"],select{
+   -webkit-appearance: none;
+   appearance: none;
+}
 html{
     font-size: 62.5%;
     height: 100%;
