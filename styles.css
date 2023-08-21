@@ -195,16 +195,19 @@ main{
  margin: auto;
 }
 #about{
+    width: 100%;
     background-color: #fff;
     padding: 15rem 0;
 }
 .about-content {
     align-items: center;
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
 .img-side {
+    width: 100%;
     position: relative;
 }
 .img-side__main-img {
@@ -212,6 +215,11 @@ main{
     height: 35rem;
     width: 41rem;
     box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+@media (max-width: 400px) {
+.img-side__main-img {
+    width: 90%;
+}
 }
 .text-side {
     padding-right: 1.5rem;
@@ -419,7 +427,9 @@ element.style {
         font-size: 1.7rem;
     }
     /* message */
-
+    .form-container{
+        width: 100%;
+    }
  .form-container form{
     display: grid;
     grid-template-areas: 
@@ -429,6 +439,7 @@ element.style {
     gap: 10px;
     margin: auto;
     align-items: center;
+    width: 100%;
   }
   .form-container form button{
     grid-area: d;
@@ -442,21 +453,27 @@ element.style {
     background: #147efb;
     box-shadow: 0px 5px 10px gray;
     -webkit-box-shadow: 0px 5px 10px gray;
+    width: 100%;
   }
   .sqs{
     display: flex;
+    width: 100%;
     flex-direction: column;
   }
   .form-container .form-name{
     grid-area: a;
+    width: 100%;
   }
   .form-container .form-email{
+    width: 100%;
     grid-area: b;
   }
   .form-container .form-msg{
+    width: 100%;
     grid-area: c;
   }
   .form-container form textarea{
+    width: 100%;
     padding: 10px;
     color: rgb(50, 50, 50);
     height: 100%;
@@ -467,11 +484,13 @@ element.style {
     background: #d4e2f2;
   }
   .form-container form label{
+    width: 100%;
     font-size: 1.7rem;
     opacity: .7;
     text-shadow: 0px 0px gray;
   }
   .form-container form input[type="text"],.form-container form input[type="email"]{
+    width: 100%;
     outline: none;
     padding: 10px;
     border-radius: 10px;
@@ -620,7 +639,7 @@ element.style {
 }
 @media (max-width: 400px){
     .container {
-        padding: 0 1.7rem;
+        padding: 0 5px;
     }
 .projects-grid .pro__1 {
     width: 100%;
