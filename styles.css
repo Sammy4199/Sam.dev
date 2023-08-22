@@ -358,6 +358,7 @@ element.style {
     gap: 1rem;
     justify-content: space-evenly;
     margin-top: 3rem;
+    margin-bottom: 10px;
 }
 .links a {
     color: #2d2e32;
