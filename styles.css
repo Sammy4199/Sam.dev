@@ -20,7 +20,7 @@
 }
 input[type="search"],
    input[type="text"],
-   input[type="email"],select{
+   input[type="email"],select,textarea{
    -webkit-appearance: none;
    appearance: none;
    font-size: 16px;
