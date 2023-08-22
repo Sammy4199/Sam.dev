@@ -337,7 +337,8 @@ element.style {
     padding: 1rem 1.3rem;
 }
 .stack {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 1rem;
     justify-content: center;
     margin-top: 1rem;
