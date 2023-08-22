@@ -307,8 +307,7 @@ element.style {
     transition: transform 10s ease-in-out 0s;
 }
 .projects-grid .pro__text {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     height: auto;
     justify-content: center;
     text-align: center;
