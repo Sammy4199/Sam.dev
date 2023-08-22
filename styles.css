@@ -10,6 +10,8 @@
     scrollbar-width: thin;
     letter-spacing: .6px;
     user-select: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     list-style: none;
 }
 input[type="search"],
